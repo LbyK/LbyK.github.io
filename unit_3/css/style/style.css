@@ -2,21 +2,42 @@ body {
 	text-align: center;
 	background: white;
 	color: black;
-	font-size: 12 px;
+	font-size: 12px;
 	font-family: Helvetica, sans-serif;
 }
 h1  {
-	font-size: 20 px;
-	font-weight: bold;
+	font-size: 50px;
+	font-weight: normal;
+	margin-bottom: 50px;
 }
 p {
-	text-align: left;
+	text-align: center;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 24px;
 }
 #slogan {
 	color: rgba(0,0,0,0.7);
 	font-style: italic;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 25px;
+}
+#second {
+	font-size: 12px;
 }
 ul {
 	list-style-type: none;
+	padding-left: 0;
+	font-size: 20px;
+	color: #838398;
+}
+img {
+	width: 800px;
+}
+a {
+	color: #838398;
+	text-decoration: none;
 }
 
