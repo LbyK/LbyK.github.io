@@ -7,20 +7,46 @@ body {
 nav {
 	text-align: center;
 }
+
 nav a {
-	font-size: 3em;
+	font-size: 1.5em;
 	color: rgba(0,0,0,0.7);
 	margin-left: 2em;
 	padding-top: 1em;
 }
+
 h1  {
 	font-family: 'Fredericka the Great', cursive;
 	font-weight: normal;
 	text-align: center;
-	font-size: 10em;
+	font-size: 5em;
 	padding-top: 0.5em;
 	padding-bottom: 0.3em;
 }
+
+p {
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.5;
+	text-align: left;
+}
+h2 {
+	text-align: left;
+	font-size: 1.2em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+a {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(0,0,0,0.7);
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+address {
+	margin-top: 1.25em;
+}
+
 section#splash {
 	background:url(../images/icecreamtrio.jpg);
 	background-size:cover;
@@ -28,26 +54,24 @@ section#splash {
 	height:90vh;
 	margin-top: 2em;
 }
-p {
-	font-family: 'Roboto Slab', serif;
-	line-height: 1.5;
+
+#slogan {
+	font-size: 2.5em;
 	text-align: left;
+	padding-top: 45em;
+	color: #1A1A1A;
+	margin: 1%;
 }
-h2 {
-	text-align: center;
-	font-size: 1.2em;
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
-section#slogan {
-	font-size: 3em;
-}
-a {
-	font-family: 'Montserrat', sans-serif;
-	color: rgba(0,0,0,0.7);
-	text-decoration: none;
-	font-size: 1.25em;
-}
+
 .wrapper {
 	margin:auto;
 	max-width:60em;
@@ -55,22 +79,20 @@ a {
 
 #best {
 	float: left;
-	width: 50%;
-	padding-left: 2%;
-	padding-right: 2%;
-}
+	width: 48%;
+	margin: 1%;
 
+}
 #visit {
 	float: right;
-	width: 50%;
-	padding-left: 2%;
-	padding-right: 2%;
+	width: 46%;
+	margin: 1%;
 }
 
-.clearfix:after{
-	visibility: hidding;
+.clearfix:after {
+	visibility: hidden;
 	display: block;
-	content: " ";
+	content: ".";
 	clear: both;
 	height: 0;
 	font-size: 0;
@@ -84,5 +106,7 @@ a {
 }
 
 address {
-	margin-top: 1.25em;
+	font-weight: lighter;
 }
+
+
