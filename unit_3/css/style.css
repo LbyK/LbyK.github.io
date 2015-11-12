@@ -31,7 +31,6 @@ p {
 }
 
 h2 {
-	text-align: left;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 }
@@ -61,6 +60,7 @@ section#splash {
 #slogan {
 	background:rgba(0,0,0,0.5);
 	color: #484848;
+	display:inline-block;
 }
 .wrapper {
 	margin:auto;
