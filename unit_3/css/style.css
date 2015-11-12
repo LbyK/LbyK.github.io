@@ -6,20 +6,21 @@ body {
 }
 nav {
 	text-align: center;
+	margin-top: 0.5%;
 }
 
 nav a {
-	font-size: 1.5em;
+	font-size: 0.6em;
 	color: rgba(0,0,0,0.7);
-	margin-left: 2em;
-	padding-top: 1em;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 h1  {
 	font-family: 'Fredericka the Great', cursive;
 	font-weight: normal;
 	text-align: center;
-	font-size: 5em;
+	font-size: 3em;
 	padding-top: 0.5em;
 	padding-bottom: 0.3em;
 }
@@ -28,10 +29,12 @@ p {
 	font-family: 'Roboto Slab', serif;
 	line-height: 1.5;
 	text-align: left;
+	font-size: 0.6em;
 }
+
 h2 {
 	text-align: left;
-	font-size: 1.2em;
+	font-size: 0.8em;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 }
@@ -44,7 +47,7 @@ a {
 }
 
 address {
-	margin-top: 1.25em;
+	margin-top: 0.25em;
 }
 
 section#splash {
@@ -52,15 +55,15 @@ section#splash {
 	background-size:cover;
 	background-repeat:no-repeat;
 	height:90vh;
-	margin-top: 2em;
+	margin-top:0.5em;
 }
 
 #slogan {
-	font-size: 2.5em;
+	font-size: 1em;
 	text-align: left;
-	padding-top: 45em;
-	color: #1A1A1A;
-	margin: 1%;
+	color: #484848;
+	margin: 2%;
+	padding-top: 27em;
 }
 
 .clearfix:after {
@@ -83,6 +86,7 @@ section#splash {
 	margin: 1%;
 
 }
+
 #visit {
 	float: right;
 	width: 46%;
@@ -99,14 +103,29 @@ section#splash {
 }
 
 #contact {
-	font-size: 0.75em;
-	text-align: left;
-	margin-top: 1.25em;
+	text-align: right;
+	font-size: 0.5em; 
+	margin-top: 10%;
 	color: (0,0,0,0.5);
+	clear: both;
 }
 
 address {
 	font-weight: lighter;
+	float:right;
+	padding-right: 2em;
+}
+
+#banner{
+	background-color: rgba(128,128,128,0.3);
+	height: 1.5em;
+	background-repeat:repeat-x;
+}
+
+#tagline {
+	background-color: rgba(128,128,128,0.3);
+	height: 2em;
+	background-repeat:repeat-x;
 }
 
 
