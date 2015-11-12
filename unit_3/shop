@@ -24,16 +24,21 @@
 	<section id="splash">
 		<div class="wrapper">
 		<section id="tagline">
-		<h2 id="slogan">A Boston Landmark</h2>
+		<h2 id="slogan">Christina's small-batch, homemade ice cream</h2>
 		</section>
 		</div>
 	</section>
 
 	<div class="wrapper">
-		<section id="ourstory">
-			<div id="story">
-				<h2>Our Story</h2>
-				<p>Christina's Homemade Ice Cream is a landmark for the culinary enthusiast and has been recognized as such by The Boston Glone, Boston Magazine, The Boston Herald, The Boston Phoenix, The Weekly Dig, The Improper Bostonian, The Phantom Gourmet, Yankee Magazine, Travel and Leisure and Bon Appetit. All of our delectable and inventive offerings are made on premises with only the best quality and freshest of ingredients. On any given day, treat yourself to any of our 50 or more exciting flavors.</p>
+		<section id="shop">
+			<div id="catering">
+				<h2>Catering</h2>
+				<p>Full service catering is available Monday to Friday with at least three days advance notice. We will serve you from a selection of four ice creams, two frozen yogurts, and one sorbet. You will add your own toppings, which include: fresh whipped cream, hot fudge, almonds, walnuts, pistachios, sprinkles, Health Bar, Reeses' Peanut Butter Cups, chocolate chips, Butterfinger, cherries, etc. Please contact us for more information.</p>
+			</div>
+
+			<div id="wholesale">
+				<h2>Wholesale</h2>
+				<p>Ice creams and sorbets are available in 05 gallon, 1.0 gallon, and 2.5 gallon containers. At least two days advance notice is requested for all orders. Please contact us for more information and/or to set up an account.</p>
 			</div>
 		</section>
 		
