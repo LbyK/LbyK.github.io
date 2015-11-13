@@ -40,27 +40,62 @@ a {
 	color: rgba(0,0,0,0.7);
 	text-decoration: none;
 	font-size: 1.25em;
+	margin-right: 1.5%;
 }
 
 address {
 	margin-top: 0.25em;
+	margin-left: 1.5%;
+	color: black;
 	font-weight: lighter;
 	float:right;
 	padding-right: 2em;
 }
+
 section#splash {
 	background:url(../images/icecreamtrio.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	margin-top:0.5em;
-	padding:15em 0;
+	padding-top: 25em;
+	padding-bottom: 0.5em;
+	text-align:center;
+}
+
+section#splashshop {
+	background:url(../images/wholesale.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-top:0.5em;
+	padding-top: 25em;
+	padding-bottom: 0.5em;
+	text-align:center;
+}
+
+section#splashflavors {
+	background:url(../images/ingredients.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-top:0.5em;
+	padding-top: 25em;
+	padding-bottom: 0.5em;
+	text-align:center;
+}
+
+section#splashstory {
+	background:url(../images/chai.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin-top:0.5em;
+	padding-top: 25em;
+	padding-bottom: 0.5em;
 	text-align:center;
 }
 
 #slogan {
-	background:rgba(0,0,0,0.5);
-	color: #484848;
+	color: black;
 	display:inline-block;
+	background-color: rgba(128,128,128,0.4);
 }
 .wrapper {
 	margin:auto;
@@ -71,6 +106,18 @@ section#splash {
 	float: left;
 	width: 48%;
 	margin: 1%;
+}
+
+#shop > div {
+	float: left;
+	width: 48%;
+	margin: 1%;
+}
+
+#icecream > div {
+	float: left;
+	width: 46%;
+	margin: 2%;
 }
 
 .clearfix:after {
@@ -85,12 +132,11 @@ section#splash {
 #contact {
 	text-align: right;
 	margin-top: 10%;
-	color: (0,0,0,0.5);
+	color: black;
 	clear: both;
-}
-#banner{
 	background-color: rgba(128,128,128,0.3);
-	background-repeat:repeat-x;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 #tagline {
