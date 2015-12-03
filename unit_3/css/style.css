@@ -50,6 +50,7 @@ address {
 	font-weight: lighter;
 	float:right;
 	padding-right: 2em;
+	display: block;
 }
 
 section#splash {
@@ -154,14 +155,15 @@ nav a {
 }
 
 img {
-	width: 320px;
+	width: 98%;
 }
+
 #about {
 	font-size: 1.5em;
 	line-height: 1.8em;
 }
 
-media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 	h1, nav {
 		display: inline-block;
 		text-align: center;
@@ -169,24 +171,46 @@ media only screen and (max-width: 480px) {
 	nav a {
 	margin: 0 1em 1em;
 	}
-}
+
 img {
-	width: 230px;
+	width: 100%;
 }
-  section, div {
-  	width: 100%;
+
+section, div {
+  	width: 98%;
   	padding: .6em;
+  	float: none;
   }
+
   #about {
   	float: none;
   	font-size: 1.5em;
   }
+
   h2 {
   	font-size: 1em;
   	display: inline;
   }
+
   p, ul {
   	margin: 1.8 em .6em 0;
   }
+
+  @media only screen and (max-width: 360px) {
+	nav {
+		float: none;
+  }
+
+nav a {
+	margin: 0 1.6em /75em 0;
+}
+
+img {
+	width: 100%;
+}
+#about {
+	font-size: 1.5em;
+	line-height: 1.8em;
+}
 
 
